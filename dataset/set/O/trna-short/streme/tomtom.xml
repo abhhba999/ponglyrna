@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.4.1" release="Sat Aug 21 19:23:23 2021 -0700">
+  <model>
+    <command_line>tomtom -dist pearson -no-ssc -oc /data/wanglinshu/tjh/dataset/set/O/trna-short/streme -evalue -thresh 1.0 -min-overlap 5 /data/wanglinshu/tjh/dataset/set/O/trna-short/streme/streme.txt /data/wanglinshu/tjh/dataset/meme/Homo_sapiens.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">1</threshold>
+    <alphabet name="RNA" like="rna">
+      <letter id="A" symbol="A" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" name="Guanine" colour="FFB300"/>
+      <letter id="U" symbol="U" aliases="T" name="Uracil" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGU" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not U"/>
+      <letter id="H" symbol="H" equals="ACU" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGU" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGU" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AU" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CU" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GU" name="Keto"/>
+    </alphabet>
+    <strands>none</strands>
+    <background from="--query--" A="0.291" C="0.179" G="0.242" U="0.288"/>
+    <host>localhost.localdomain</host>
+    <when>Mon Apr 15 18:57:03 2024</when>
+  </model>
+  <query_dbs>
+    <db source="/data/wanglinshu/tjh/dataset/set/O/trna-short/streme/streme.txt" name="streme.txt" loaded="7" excluded="0" last_mod_date="Mon Apr 15 12:29:51 2024"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="/data/wanglinshu/tjh/dataset/meme/Homo_sapiens.meme" name="Homo_sapiens" loaded="98" excluded="0" last_mod_date="Thu Apr 11 20:15:17 2024"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="1-KAUAGCUCAGU" alt="STREME-1" length="11" nsites="120" evalue="3.9e-002">
+      <pos A="0.123666" C="0.0327868" G="0.454443" U="0.389105"/>
+      <pos A="0.666232" C="0.0619635" G="0.184731" U="0.0870734"/>
+      <pos A="0.00114954" C="0.000705579" G="0.0111664" U="0.986979"/>
+      <pos A="0.986992" C="0.000705579" G="0.000956869" U="0.0113455"/>
+      <pos A="0.00114954" C="0.000705579" G="0.997009" U="0.00113605"/>
+      <pos A="0.00114954" C="0.966128" G="0.000956869" U="0.0317655"/>
+      <pos A="0.00114954" C="0.000705579" G="0.0622148" U="0.93593"/>
+      <pos A="0.00114954" C="0.996758" G="0.000956869" U="0.00113605"/>
+      <pos A="0.997201" C="0.000705579" G="0.000956869" U="0.00113605"/>
+      <pos A="0.00114954" C="0.000705579" G="0.95617" U="0.041975"/>
+      <pos A="0.00114954" C="0.133431" G="0.206602" U="0.658816"/>
+    </motif>
+    <motif db="0" id="2-GACUGAAG" alt="STREME-2" length="8" nsites="99" evalue="2.0e-001">
+      <pos A="0.0329407" C="0.016661" G="0.948735" U="0.00166323"/>
+      <pos A="0.980276" C="0.00103177" G="0.0170292" U="0.00166323"/>
+      <pos A="0.00168224" C="0.860613" G="0.0795451" U="0.0581602"/>
+      <pos A="0.00168224" C="0.0479194" G="0.00140003" U="0.948998"/>
+      <pos A="0.00168224" C="0.0635486" G="0.839332" U="0.0954375"/>
+      <pos A="0.55831" C="0.251078" G="0.00140003" U="0.189212"/>
+      <pos A="0.995905" C="0.00103177" G="0.00140003" U="0.00166323"/>
+      <pos A="0.00168224" C="0.00103177" G="0.995622" U="0.00166323"/>
+    </motif>
+    <motif db="0" id="3-CCGGGUKC" alt="STREME-3" length="8" nsites="253" evalue="2.5e-001">
+      <pos A="0.0149381" C="0.842713" G="0.0852819" U="0.0570683"/>
+      <pos A="0.0677243" C="0.877788" G="0.0333745" U="0.0211145"/>
+      <pos A="0.075932" C="0.00860635" G="0.879967" U="0.0354948"/>
+      <pos A="0.146557" C="0.0771123" G="0.732606" U="0.0437246"/>
+      <pos A="0.0245353" C="0.0976512" G="0.87248" U="0.00533373"/>
+      <pos A="0.0533279" C="0.0632398" G="0.0388403" U="0.844592"/>
+      <pos A="0.055724" C="0.0579179" G="0.42602" U="0.460338"/>
+      <pos A="0.0389316" C="0.625042" G="0.264562" U="0.0714646"/>
+    </motif>
+    <motif db="0" id="4-CAGGGUCG" alt="STREME-4" length="8" nsites="98" evalue="2.7e-001">
+      <pos A="0.00139052" C="0.996078" G="0.00115676" U="0.00137447"/>
+      <pos A="0.738169" C="0.000852783" G="0.259604" U="0.00137447"/>
+      <pos A="0.19113" C="0.0500806" G="0.683573" U="0.0752161"/>
+      <pos A="0.0383118" C="0.000852783" G="0.959461" U="0.00137447"/>
+      <pos A="0.154606" C="0.000852783" G="0.843167" U="0.00137447"/>
+      <pos A="0.259837" C="0.000852783" G="0.00115676" U="0.738153"/>
+      <pos A="0.00139052" C="0.602255" G="0.234989" U="0.161365"/>
+      <pos A="0.112153" C="0.000852783" G="0.885619" U="0.00137447"/>
+    </motif>
+    <motif db="0" id="5-GUUCGAGC" alt="STREME-5" length="8" nsites="117" evalue="7.2e-001">
+      <pos A="0.00158736" C="0.000974159" G="0.99587" U="0.00156881"/>
+      <pos A="0.00158736" C="0.0160433" G="0.00132071" U="0.981049"/>
+      <pos A="0.00158736" C="0.000974159" G="0.0163898" U="0.981049"/>
+      <pos A="0.00158736" C="0.935247" G="0.00132071" U="0.0618443"/>
+      <pos A="0.00158736" C="0.000974159" G="0.99587" U="0.00156881"/>
+      <pos A="0.920792" C="0.000974159" G="0.0615972" U="0.0166379"/>
+      <pos A="0.122139" C="0.000974159" G="0.724628" U="0.152258"/>
+      <pos A="0.0166565" C="0.844833" G="0.00132071" U="0.137189"/>
+    </motif>
+    <motif db="0" id="6-GACUCUUAAUCC" alt="STREME-6" length="12" nsites="63" evalue="1.4e+000">
+      <pos A="0.0268982" C="0.0164929" G="0.930033" U="0.026576"/>
+      <pos A="0.934548" C="0.0164929" G="0.0223826" U="0.026576"/>
+      <pos A="0.0268982" C="0.924143" G="0.0223826" U="0.026576"/>
+      <pos A="0.0268982" C="0.0164929" G="0.0223826" U="0.934226"/>
+      <pos A="0.0268982" C="0.924143" G="0.0223826" U="0.026576"/>
+      <pos A="0.0268982" C="0.0164929" G="0.0223826" U="0.934226"/>
+      <pos A="0.0268982" C="0.0164929" G="0.0223826" U="0.934226"/>
+      <pos A="0.934548" C="0.0164929" G="0.0223826" U="0.026576"/>
+      <pos A="0.934548" C="0.0164929" G="0.0223826" U="0.026576"/>
+      <pos A="0.0268982" C="0.0164929" G="0.0223826" U="0.934226"/>
+      <pos A="0.0268982" C="0.924143" G="0.0223826" U="0.026576"/>
+      <pos A="0.0268982" C="0.924143" G="0.0223826" U="0.026576"/>
+    </motif>
+    <motif db="0" id="7-GGUCUAGUGGUU" alt="STREME-7" length="12" nsites="52" evalue="2.1e+000">
+      <pos A="0.0826956" C="0.0019425" G="0.912233" U="0.00312883"/>
+      <pos A="0.00316653" C="0.0019425" G="0.991762" U="0.00312883"/>
+      <pos A="0.00316653" C="0.11931" G="0.00263432" U="0.874889"/>
+      <pos A="0.149875" C="0.559438" G="0.258215" U="0.0324714"/>
+      <pos A="0.00316653" C="0.0019425" G="0.00263432" U="0.992257"/>
+      <pos A="0.992294" C="0.0019425" G="0.00263432" U="0.00312883"/>
+      <pos A="0.267244" C="0.0019425" G="0.727685" U="0.00312883"/>
+      <pos A="0.00316653" C="0.0606266" G="0.178686" U="0.757522"/>
+      <pos A="0.00316653" C="0.0019425" G="0.991762" U="0.00312883"/>
+      <pos A="0.00316653" C="0.0019425" G="0.991762" U="0.00312883"/>
+      <pos A="0.120534" C="0.0899682" G="0.00263432" U="0.786864"/>
+      <pos A="0.296585" C="0.0019425" G="0.09066" U="0.610812"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="M068_0.6" alt="SNRNP70" length="7" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T37211_0.6">
+      <pos A="0.289591" C="0.111985" G="0.476532" U="0.121894"/>
+      <pos A="0.58662" C="0.0482746" G="0.0540018" U="0.311105"/>
+      <pos A="0.0370754" C="0.0268937" G="0.0326209" U="0.90341"/>
+      <pos A="0.0370754" C="0.893501" G="0.0326209" U="0.0368027"/>
+      <pos A="0.903683" C="0.0268937" G="0.0326209" U="0.0368027"/>
+      <pos A="0.903683" C="0.0268937" G="0.0326209" U="0.0368027"/>
+      <pos A="0.14385" C="0.0488873" G="0.748467" U="0.0587963"/>
+    </motif>
+    <motif db="0" id="M085_0.6" alt="ZCRB1" length="8" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T07244_0.6">
+      <pos A="0.138843" C="0.128661" G="0.593927" U="0.13857"/>
+      <pos A="0.60484" C="0.04536" G="0.216464" U="0.133337"/>
+      <pos A="0.474619" C="0.290901" G="0.0293055" U="0.205175"/>
+      <pos A="0.03376" C="0.0235782" G="0.0293055" U="0.913357"/>
+      <pos A="0.03376" C="0.0235782" G="0.0293055" U="0.913357"/>
+      <pos A="0.91363" C="0.0235782" G="0.0293055" U="0.0334873"/>
+      <pos A="0.91363" C="0.0235782" G="0.0293055" U="0.0334873"/>
+      <pos A="0.149092" C="0.13891" G="0.398535" U="0.313463"/>
+    </motif>
+    <motif db="0" id="M136_0.6" alt="(SNRPB2)_(Drosophila_melanogaster)_(RBD_0.81)" length="8" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T37242_0.6">
+      <pos A="0.423071" C="0.209198" G="0.137355" U="0.230375"/>
+      <pos A="0.110482" C="0.0226046" G="0.0283318" U="0.838582"/>
+      <pos A="0.269787" C="0.0226046" G="0.0283318" U="0.679276"/>
+      <pos A="0.0327863" C="0.0226046" G="0.912095" U="0.0325136"/>
+      <pos A="0.0327863" C="0.906368" G="0.0283318" U="0.0325136"/>
+      <pos A="0.91655" C="0.0226046" G="0.0283318" U="0.0325136"/>
+      <pos A="0.0545073" C="0.841205" G="0.0500527" U="0.0542345"/>
+      <pos A="0.405364" C="0.134558" G="0.237367" U="0.222711"/>
+    </motif>
+    <motif db="0" id="M147_0.6" alt="CNOT4" length="7" nsites="1"
+        url="http://cisbp-rna.ccbr.utoronto.ca/TFreport.php?searchTF=T37180_0.6">
+      <pos A="0.0527509" C="0.169803" G="0.724968" U="0.0524782"/>
+      <pos A="0.92151" C="0.0209509" G="0.0266782" U="0.03086"/>
+      <pos A="0.0311327" C="0.847645" G="0.0903609" U="0.03086"/>
+      <pos A="0.92151" C="0.0209509" G="0.0266782" U="0.03086"/>
+      <pos A="0.0311327" C="0.183698" G="0.754309" U="0.03086"/>
+      <pos A="0.92151" C="0.0209509" G="0.0266782" U="0.03086"/>
+      <pos A="0.300098" C="0.183661" G="0.21264" U="0.303601"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="0">
+      <target idx="2" off="-1" pv="3.29e-03" ev="3.22e-01" qv="3.22e-01"/>
+    </query>
+    <query idx="1">
+      <target idx="1" off="0" pv="1.72e-03" ev="1.69e-01" qv="1.69e-01"/>
+      <target idx="3" off="0" pv="4.42e-03" ev="4.33e-01" qv="2.16e-01"/>
+    </query>
+    <query idx="4">
+      <target idx="0" off="0" pv="4.19e-03" ev="4.10e-01" qv="4.10e-01"/>
+    </query>
+  </matches>
+  <runtime cycles="117846" seconds="0.118"/>
+</tomtom>

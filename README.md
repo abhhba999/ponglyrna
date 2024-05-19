@@ -40,6 +40,8 @@ PONglyRNA is designed to help researchers identify potential O-linked and N-link
     ```
 
 3. Install the required dependencies:
+    Please download the BLASTN toolkit and the Fastp toolkit from the [NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and [Fastp GitHub repository](https://github.com/OpenGene/fastp) respectively.
+
     ```bash
     pip install -r requirements.txt
     ```
